@@ -5,3 +5,4 @@ SELECT
 FROM 订单表
 GROUP BY DATE_FORMAT(日期, '%Y')
 ORDER BY 年份;
+
